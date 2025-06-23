@@ -1,6 +1,8 @@
 import os
 from kafka import KafkaProducer
 
+
+
 def main():
     kafka_host = os.getenv('KAFKA_HOST')
     # Connect to Kafka broker
